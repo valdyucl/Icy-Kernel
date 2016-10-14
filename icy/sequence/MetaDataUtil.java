@@ -460,7 +460,7 @@ public class MetaDataUtil
     }
 
     /**
-     * Returns X pixel size (in µm) of the specified image serie.
+     * Returns X pixel size (in um) of the specified image serie.
      */
     public static double getPixelSizeX(OMEXMLMetadataImpl metaData, int serie, double defaultValue)
     {
@@ -473,7 +473,7 @@ public class MetaDataUtil
     }
 
     /**
-     * Returns Y pixel size (in µm) of the specified image serie.
+     * Returns Y pixel size (in um) of the specified image serie.
      */
     public static double getPixelSizeY(OMEXMLMetadataImpl metaData, int serie, double defaultValue)
     {
@@ -486,7 +486,7 @@ public class MetaDataUtil
     }
 
     /**
-     * Returns Z pixel size (in µm) of the specified image serie.
+     * Returns Z pixel size (in um) of the specified image serie.
      */
     public static double getPixelSizeZ(OMEXMLMetadataImpl metaData, int serie, double defaultValue)
     {
@@ -531,7 +531,7 @@ public class MetaDataUtil
     }
 
     /**
-     * Returns the X field position (in µm) for the image at the specified Z, T, C position.
+     * Returns the X field position (in um) for the image at the specified Z, T, C position.
      */
     public static double getPositionX(OMEXMLMetadataImpl metaData, int serie, int t, int z, int c, double defaultValue)
     {
@@ -549,7 +549,7 @@ public class MetaDataUtil
     }
 
     /**
-     * Returns the Y field position (in µm) for the image at the specified Z, T, C position.
+     * Returns the Y field position (in um) for the image at the specified Z, T, C position.
      */
     public static double getPositionY(OMEXMLMetadataImpl metaData, int serie, int t, int z, int c, double defaultValue)
     {
@@ -567,7 +567,7 @@ public class MetaDataUtil
     }
 
     /**
-     * Returns the Z field position (in µm) for the image at the specified Z, T, C position.
+     * Returns the Z field position (in um) for the image at the specified Z, T, C position.
      */
     public static double getPositionZ(OMEXMLMetadataImpl metaData, int serie, int t, int z, int c, double defaultValue)
     {
@@ -659,7 +659,7 @@ public class MetaDataUtil
     }
 
     /**
-     * Set X pixel size (in µm) of the specified image serie.
+     * Set X pixel size (in ï¿½m) of the specified image serie.
      */
     public static void setPixelSizeX(OMEXMLMetadataImpl metaData, int serie, double value)
     {
@@ -667,7 +667,7 @@ public class MetaDataUtil
     }
 
     /**
-     * Set Y pixel size (in µm) of the specified image serie.
+     * Set Y pixel size (in ï¿½m) of the specified image serie.
      */
     public static void setPixelSizeY(OMEXMLMetadataImpl metaData, int serie, double value)
     {
@@ -675,7 +675,7 @@ public class MetaDataUtil
     }
 
     /**
-     * Set Z pixel size (in µm) of the specified image serie.
+     * Set Z pixel size (in ï¿½m) of the specified image serie.
      */
     public static void setPixelSizeZ(OMEXMLMetadataImpl metaData, int serie, double value)
     {

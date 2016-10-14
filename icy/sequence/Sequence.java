@@ -805,7 +805,7 @@ public class Sequence implements SequenceModel, IcyColorModelListener, IcyBuffer
     }
 
     /**
-     * Returns pixel size for [X,Y,Z] dimension (in µm to be OME compatible)
+     * Returns pixel size for [X,Y,Z] dimension (in um to be OME compatible)
      */
     public double[] getPixelSize()
     {
@@ -813,7 +813,7 @@ public class Sequence implements SequenceModel, IcyColorModelListener, IcyBuffer
     }
 
     /**
-     * Returns X pixel size (in µm to be OME compatible)
+     * Returns X pixel size (in um to be OME compatible)
      */
     public double getPixelSizeX()
     {
@@ -821,7 +821,7 @@ public class Sequence implements SequenceModel, IcyColorModelListener, IcyBuffer
     }
 
     /**
-     * Returns Y pixel size (in µm to be OME compatible)
+     * Returns Y pixel size (in um to be OME compatible)
      */
     public double getPixelSizeY()
     {
@@ -829,7 +829,7 @@ public class Sequence implements SequenceModel, IcyColorModelListener, IcyBuffer
     }
 
     /**
-     * Returns Z pixel size (in µm to be OME compatible)
+     * Returns Z pixel size (in um to be OME compatible)
      */
     public double getPixelSizeZ()
     {
@@ -856,7 +856,7 @@ public class Sequence implements SequenceModel, IcyColorModelListener, IcyBuffer
     }
 
     /**
-     * Set X pixel size (in µm to be OME compatible)
+     * Set X pixel size (in um to be OME compatible)
      */
     public void setPixelSizeX(double value)
     {
@@ -868,7 +868,7 @@ public class Sequence implements SequenceModel, IcyColorModelListener, IcyBuffer
     }
 
     /**
-     * Set Y pixel size (in µm to be OME compatible)
+     * Set Y pixel size (in um to be OME compatible)
      */
     public void setPixelSizeY(double value)
     {
@@ -880,7 +880,7 @@ public class Sequence implements SequenceModel, IcyColorModelListener, IcyBuffer
     }
 
     /**
-     * Set Z pixel size (in µm to be OME compatible)
+     * Set Z pixel size (in um to be OME compatible)
      */
     public void setPixelSizeZ(double value)
     {
@@ -904,7 +904,7 @@ public class Sequence implements SequenceModel, IcyColorModelListener, IcyBuffer
     }
 
     /**
-     * Returns the pixel size scaling factor to convert a number of pixel/voxel unit into <code>µm</code><br/>
+     * Returns the pixel size scaling factor to convert a number of pixel/voxel unit into <code>um</code><br/>
      * <br>
      * For instance to get the scale ration for 2D distance:<br>
      * <code>valueMicroMeter = pixelNum * getPixelSizeScaling(2, 1)</code><br>
@@ -1023,16 +1023,16 @@ public class Sequence implements SequenceModel, IcyColorModelListener, IcyBuffer
     }
 
     /**
-     * Returns the size in µm for the specified amount of sample/pixel value in the specified
+     * Returns the size in um for the specified amount of sample/pixel value in the specified
      * dimension order.<br>
      * <br>
-     * For the perimeter in µm:<br>
+     * For the perimeter in um:<br>
      * <code>perimeter = calculateSize(contourInPixel, 2, 1)</code><br>
-     * For a 2D surface in µm2:<br>
+     * For a 2D surface in um2:<br>
      * <code>surface = calculateSize(interiorInPixel, 2, 2)</code><br>
-     * For a 2D surface area in µm2:<br>
+     * For a 2D surface area in um2:<br>
      * <code>volume = calculateSize(contourInPixel, 3, 2)</code><br>
-     * For a 3D volume in µm3:<br>
+     * For a 3D volume in um3:<br>
      * <code>volume = calculateSize(interiorInPixel, 3, 3)</code><br>
      * 
      * @param pixelNumber

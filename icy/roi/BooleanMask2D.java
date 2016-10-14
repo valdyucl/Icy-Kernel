@@ -2291,7 +2291,7 @@ public class BooleanMask2D implements Cloneable
                             perimeter += 1 + (Math.PI / 2);
                             break;
 
-                        default: // assume triangle with 45° angle
+                        default: // assume triangle with 45 degrees angle
                             cornerEdges++;
                             sideEdges++;
                             perimeter += 1 + Math.sqrt(2);
@@ -2311,13 +2311,13 @@ public class BooleanMask2D implements Cloneable
                     }
                     else
                     {
-                        // consider 90° corner
+                        // consider 90 degrees corner
                         cornerEdges++;
                         perimeter += Math.sqrt(2);
                     }
                     break;
 
-                case 3: // classic border (180°)
+                case 3: // classic border (180 degrees)
                     switch (diagConnection)
                     {
                         default: // classic border
@@ -2326,7 +2326,7 @@ public class BooleanMask2D implements Cloneable
                             break;
 
                         case 3:
-                            // consider 225° interior corner
+                            // consider 225 degrees interior corner
                             cornerEdges += 0.5;
                             sideEdges += 0.5;
                             perimeter += 0.5 + (Math.sqrt(2) / 2);

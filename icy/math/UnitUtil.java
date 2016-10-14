@@ -47,7 +47,7 @@ public class UnitUtil
                 case MILLI:
                     return "m";
                 case MICRO:
-                    return "µ";
+                    return "\u00B5";
                 case NANO:
                     return "n";
                 case PICO:

@@ -86,7 +86,7 @@ public class OMEUtil
     }
 
     /**
-     * Convert specified Length to double value in µm (for backward compatibility).<br>
+     * Convert specified Length to double value in um (for backward compatibility).<br>
      * Return defaultValue if specified object is <code>null</code>.
      */
     public static double getValue(Length obj, double defaultValue)
@@ -134,7 +134,7 @@ public class OMEUtil
     }
 
     /**
-     * Return a Length object representing the specified value (in µm)
+     * Return a Length object representing the specified value (in um)
      */
     public static Length getLength(double value)
     {
