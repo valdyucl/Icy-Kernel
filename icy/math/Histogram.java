@@ -68,10 +68,10 @@ public class Histogram
                 bw = 1d;
             else
             {
-                bw = (range + 1d) / nbBin;
+                bw = (range /*+ 1d*/) / nbBin;
                 bw = Math.max(1d, Math.floor(bw));
             }
-            bins = new int[(int) Math.ceil((range + 1d) / bw)];
+            bins = new int[(int) Math.ceil((range /*+ 1d*/) / bw)];
         }
         else
         {
@@ -83,7 +83,7 @@ public class Histogram
 
         // data to bin index conversion ratio
         if (range > 0)
-            dataToBin = (bins.length - 1) / range;
+            dataToBin = (bins.length /* -1d */) / range;
         else
             dataToBin = 0d;
     }
